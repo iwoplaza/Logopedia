@@ -69,10 +69,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Analyzer.cs" />
-    <Compile Include="AnalyzedData.cs" />
-    <Compile Include="RawDataContainer.cs" />
-    <Compile Include="Request.cs" />
+    <Compile Include="Analysis\IAnalyzer.cs" />
+    <Compile Include="Analysis\IAnalyzedData.cs" />
+    <Compile Include="IO\RawDataContainer.cs" />
+    <Compile Include="Analysis\IRequest.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -81,7 +81,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DataStream.cs" />
+    <Compile Include="IO\IRawDataStream.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
