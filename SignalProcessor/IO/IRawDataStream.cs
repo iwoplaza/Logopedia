@@ -4,7 +4,7 @@
     /// An interface for objects used to stream raw data.
     /// by the filePath parameter.
     /// </summary>
-    interface IRawDataStream
+    interface IRawDataStream<TData>
     {
         /// <summary>
         /// Returns the specified amount of samples from the file specified by the
@@ -12,6 +12,6 @@
         /// </summary>
         /// <param name="samples">The minimum amount of samples this function should retrieve.</param>
         /// <returns>The data retrieved as a RawDataContainer</returns>
-        RawDataContainer GetNextSnippet(uint samples);
+        RawDataContainer<TData> GetNextSnippet(uint samples);
     }
 }
