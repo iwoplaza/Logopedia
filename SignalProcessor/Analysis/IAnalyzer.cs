@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SignalProcessor
+namespace SignalProcessor.Analysis
 {
-    namespace Analyze
-    {
         /// <summary>
         /// An interface for every data analytic methods.
         /// </summary>
@@ -18,7 +16,6 @@ namespace SignalProcessor
             /// </summary>
             /// <param name="request_">The request.</param>
             /// <returns>Analyzed data.</returns>
-            IAnalyzedData analyze(IRequest request_);
+            IAnalyzedData Analyze(IRequest request_);
         }
-    }
 }

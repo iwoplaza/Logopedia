@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SignalProcessor
+namespace SignalProcessor.Analysis
 {
     /// <summary>
-    /// Contains a portion of data not yet analized, but presented
-    /// in the most simplistic way.
+    /// An interface for everything containing analyzed data.
     /// </summary>
-    class RawDataContainer
+    interface IAnalyzedData
     {
+
     }
 }
