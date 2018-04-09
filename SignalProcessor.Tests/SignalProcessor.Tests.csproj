@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analysis\ArithmeticMeanCalculatorTests.cs" />
+    <Compile Include="Analysis\ThresholdValuesCalculatorTests.cs" />
     <Compile Include="IO\RawDataContainerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

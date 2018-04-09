@@ -69,8 +69,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Analysis\ArithmeticMeanCalculator.cs" />
     <Compile Include="Analysis\IAnalyzer.cs" />
     <Compile Include="Analysis\IAnalyzedData.cs" />
+    <Compile Include="Analysis\ThresholdValuesCalculator.cs" />
     <Compile Include="IO\RawDataContainer.cs" />
     <Compile Include="Analysis\IRequest.cs" />
     <Page Include="MainWindow.xaml">
