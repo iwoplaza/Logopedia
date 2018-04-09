@@ -12,5 +12,11 @@ namespace SignalProcessor.IO
     /// </summary>
     class RawDataContainer
     {
+        double[] array;
+
+        RawDataContainer(uint capacity)
+        {
+            array = new double[capacity];
+        }
     }
 }
